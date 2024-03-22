@@ -1,280 +1,271 @@
 #navbar{
-    display: flex;
-    justify-content: space-around;
-    background-color: blue;
+   display: flex;
+   justify-content: space-around;
+   background-color: rgb(18,114,114);
 }
 #main-navbar{
-    background-color: blueviolet;
+   background-color: rgb(7,39,59);
 }
 #home{
-    text-decoration: underline;
+   text-decoration: underline;
 }
 #logo2{
-    border-radius: 10px;
-    background-color: purple;
-    padding: 10px;
+   border-radius: 10px;
+   background-color: purple;
+   padding: 10px;
 }
 #navbar2{
-    display: flex;
-    font-size: x-large;
-    justify-content: center;
- }
- #text1{
-    font-size: large;
- }
- .sign-up{
-    border-radius: 10px;
-    padding: 1%;
-    background-color: blue;
- }
- .log-in{
-    border-radius: 10px;
-    padding: 1%;
- }
- #image-man{
-    display: flex;
-    justify-content: center;
- }
- #sub-heading{
-    display: flex;
-    justify-content: center;
- }
- #info{
-    display: flex;
-    justify-content: space-around;
- }
- #starting-point{
-    display: flex;
-    justify-content: center;
- }
- .get-started{
-    border-radius: 20px;
-    padding: 10px;
-    background-color: purple;
- }
- #sub-heading2{
-    display: flex;
-    justify-content: center;
- }
- #mini-heading{
-    display: flex;
-    justify-content: center;
- }
- .explore{
-    border-radius: 20px;
-    padding: 10px;
-    background-color: peru;
- }
- #button{
-    display: flex;
-    justify-content: center;
- }
- #tablet{
-    display: flex;
+   display: flex;
+   font-size: x-large;
    justify-content: center;
- }
- #body2{
-    background-color: skyblue;
- }
- #sub-heading3{
-    display: flex;
-    justify-content: center;
- }
- .view-blog{
-    border-radius: 10px;
-    padding: 5px;
-    background-color: purple;
- }
- #highlights{
-    display: flex;
-    justify-content: space-around;
- }
- #highlights2{
-    display: flex;
-    justify-content: space-around;
- }
- #button-l{
-    color: aqua;
-    border-color: aqua;
-    padding: 10px;
-    border-radius: 10px;
- }
- #job-offer{
-    display: flex;
-    justify-content: space-around;
-    background-color: blueviolet;
+}
+#text1{
+   font-size: large;
+}
+.sign-up{
+   border-radius: 10px;
+   padding: 1%;
+   background-color: blue;
+}
+.log-in{
+   border-radius: 10px;
+   padding: 1%;
+}
+#image-man{
+   display: flex;
+   justify-content: center;
+}
+#sub-heading{
+   display: flex;
+   justify-content: center;
+}
+#info{
+   display: flex;
+   justify-content: space-around;
+}
+#starting-point{
+   display: flex;
+   justify-content: center;
+}
+.get-started{
+   border-radius: 20px;
+   padding: 10px;
+   background-color: purple;
+}
+#sub-heading2{
+   display: flex;
+   justify-content: center;
+}
+#mini-heading{
+   display: flex;
+   justify-content: center;
+}
+.explore{
+   border-radius: 20px;
+   padding: 10px;
+   background-color: peru;
+}
+#button{
+   display: flex;
+   justify-content: center;
+}
+#tablet{
+   display: flex;
+  justify-content: center;
+}
+#body2{
+   background-color: skyblue;
+}
+#sub-heading3{
+   display: flex;
+   justify-content: center;
+}
+.view-blog{
+   border-radius: 10px;
+   padding: 5px;
+   background-color: purple;
+}
+#highlights{
+   display: flex;
+   justify-content: space-around;
+}
+#highlights2{
+   display: flex;
+   justify-content: space-around;
+}
+#button-l{
+   color: aqua;
+   border-color: aqua;
+   padding: 10px;
+   border-radius: 10px;
+}
+#job-offer{
+   display: flex;
+   justify-content: space-around;
+   background-color: rgb(7,39,59);
 }
 .job-open{
-    border-radius: 10px;
-    padding: 10px;
-    background-color: aqua;
+   border-radius: 10px;
+   padding: 10px;
+   background-color: aqua;
 
 }
 #footer{
-    display: flex;
-    justify-content: space-around;
-    gap: 150px;
-    padding: 50px;
-    color: white;
-    background-color: aqua;
- }
- .email{
-    border-radius: 10px;
-    padding: 10px;
-    background-color: lightskyblue;
-    color: white;
- }
+   display: flex;
+   justify-content: space-around;
+   gap: 150px;
+   padding: 50px;
+   color: white;
+   background-color: aqua;
+}
+.email{
+   border-radius: 10px;
+   padding: 10px;
+   background-color: lightskyblue;
+   color: white;
+}
 
- @media only screen and (max-width: 1000px){
-    #navbar{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        background-color: blue;
-    }
-    #main-navbar{
-        background-color: blueviolet;
-    }
-    #home{
-        text-decoration: underline;
-    }
-    #logo2{
-        border-radius: 10px;
-        background-color: purple;
-        /*padding: 10px;*/
-    }
-    #navbar2{
-        display: flex;
-        flex-wrap: wrap;
-        font-size: x-large;
-        justify-content: center;
-     }
-     #text1{
-        font-size: large;
-     }
-     .sign-up{
-        border-radius: 10px;
-        /*padding: 1%;*/
-        background-color: blue;
-     }
-     .log-in{
-        border-radius: 10px;
-       /* padding: 1%;*/
-     }
-     #image-man{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-     }
-     #sub-heading{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-     }
-     #info{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-     }
-     #starting-point{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-     }
-     .get-started{
-        border-radius: 20px;
-        /*padding: 10px;*/
-        background-color: purple;
-     }
-     #sub-heading2{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-     }
-     #mini-heading{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-     }
-     .explore{
-        border-radius: 20px;
-        /*padding: 10px;*/
-        background-color: peru;
-     }
-     #button{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-     }
-     #tablet{
-        display: flex;
-        flex-wrap: wrap;
+@media only screen and (max-width: 1000px){
+   #navbar{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       background-color: rgb(18,114,114);
+   }
+   #main-navbar{
+       background-color: rgb(7,39,59);
+   }
+   #home{
+       text-decoration: underline;
+   }
+   #logo2{
+       border-radius: 10px;
+       background-color: purple;
+       /*padding: 10px;*/
+   }
+   #navbar2{
+       display: flex;
+       flex-wrap: wrap;
+       font-size: x-large;
        justify-content: center;
-     }
-     #body2{
-        background-color: skyblue;
-     }
-     #sub-heading3{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-     }
-     .view-blog{
-        border-radius: 10px;
-        /*padding: 5px;*/
-        background-color: purple;
-     }
-     #highlights{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-     }
-     #highlights2{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-     }
-     #button-l{
-        color: aqua;
-        border-color: aqua;
-        /*padding: 10px;*/
-        border-radius: 10px;
-     }
-     #job-offer{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        background-color: blueviolet;
     }
-    .job-open{
-        border-radius: 10px;
-        /*padding: 10px;*/
-        background-color: aqua;
-    
+    #text1{
+       font-size: large;
     }
-    #footer{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        /*gap: 150px;*/
-        /*padding: 50px;*/
-        color: white;
-        background-color: aqua;
-     }
-     .email{
-        border-radius: 10px;
-        /*padding: 10px;*/
-        background-color: lightskyblue;
-        color: white;
-     }
-
- }
- 
- 
- 
-    
- 
-
-    
- 
+    .sign-up{
+       border-radius: 10px;
+       /*padding: 1%;*/
+       background-color: blue;
+    }
+    .log-in{
+       border-radius: 10px;
+      /* padding: 1%;*/
+    }
+    #image-man{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    #sub-heading{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    #info{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+    }
+    #starting-point{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    .get-started{
+       border-radius: 20px;
+       /*padding: 10px;*/
+       background-color: purple;
+    }
+    #sub-heading2{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    #mini-heading{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    .explore{
+       border-radius: 20px;
+       /*padding: 10px;*/
+       background-color: peru;
+    }
+    #button{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    #tablet{
+       display: flex;
+       flex-wrap: wrap;
+      justify-content: center;
+    }
+    #body2{
+       background-color: skyblue;
+    }
+    #sub-heading3{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    .view-blog{
+       border-radius: 10px;
+       /*padding: 5px;*/
+       background-color: purple;
+    }
+    #highlights{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+    }
+    #highlights2{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+    }
+    #button-l{
+       color: aqua;
+       border-color: aqua;
+       /*padding: 10px;*/
+       border-radius: 10px;
+    }
+    #job-offer{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       background-color: rgb(7,39,59);
+   }
+   .job-open{
+       border-radius: 10px;
+       /*padding: 10px;*/
+       background-color: aqua;
    
+   }
+   #footer{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       /*gap: 150px;*/
+       /*padding: 50px;*/
+       color: white;
+       background-color: aqua;
+    }
+    .email{
+       border-radius: 10px;
+       /*padding: 10px;*/
+       background-color: lightskyblue;
+       color: white;
+    }
+
+}
